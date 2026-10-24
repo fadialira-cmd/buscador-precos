@@ -14,7 +14,8 @@
         "https://www.pelando.com.br/cupons-de-descontos/mercado-livre"
       ],
       "status": "ativo",
-      "falhas": 0
+      "falhas": 0,
+      "ultima_checagem": "24/10/2026 04:55"
     },
     {
       "post_id": "Post 2",
@@ -45,7 +46,8 @@
         "https://descontostop.com/loja/cupom-desconto-magazine-luiza/"
       ],
       "status": "ativo",
-      "falhas": 0
+      "falhas": 0,
+      "ultima_checagem": "24/10/2026 04:55"
     },
     {
       "post_id": "Post 4",
@@ -59,8 +61,9 @@
       "fontes": [
         "https://seletronic.com.br/cupom-shopee-20-reais-desconto-compras-60-23-10-2026/"
       ],
-      "status": "suspeito",
-      "falhas": 0
+      "status": "ativo",
+      "falhas": 0,
+      "ultima_checagem": "24/10/2026 04:55"
     },
     {
       "post_id": "Post 5",
@@ -76,7 +79,8 @@
         "https://www.cupomdesconto.com.br/cupom-amazon"
       ],
       "status": "ativo",
-      "falhas": 0
+      "falhas": 0,
+      "ultima_checagem": "24/10/2026 04:55"
     }
   ]
 }
