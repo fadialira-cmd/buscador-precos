@@ -75,6 +75,11 @@ def buscar_termo(termo, fontes, limite, alvo=None):
     print(f"\n🔎 {termo} — {len(linhas)} ofertas ({datetime.now():%d/%m %H:%M})")
     for e in erros:
         print(f"   ⚠️  {e}")
+    resumo = RAIZ / "saida" / "ultima_execucao.txt"
+    resumo.parent.mkdir(exist_ok=True)
+    with resumo.open("a", encoding="utf-8") as f:
+        f.write(f"{datetime.now():%d/%m %H:%M} | {termo} | {len(linhas)} ofertas"
+                + "".join(f"\n    erro: {e}" for e in erros) + "\n")
     for d in linhas[:10]:
         desc = f" (-{d['desconto_anunciado']}%)" if d["desconto_anunciado"] else ""
         print(f"   {brl(d['preco']):>12}{desc:<9} {d['fonte']:<16} {d['selo']:<26} {d['titulo'][:55]}")
@@ -128,6 +133,7 @@ def main():
         sys.exit(1)
 
     while True:
+        (RAIZ / "saida" / "ultima_execucao.txt").unlink(missing_ok=True)
         for termo, alvo in itens:
             buscar_termo(termo, fontes, a.limite, alvo)
         if not a.a_cada:
