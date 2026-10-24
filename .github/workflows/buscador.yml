@@ -5,7 +5,7 @@ env:
 
 on:
   schedule:
-    - cron: "17 * * * *"   # de hora em hora (UTC)
+    - cron: "17 */3 * * *"   # a cada 3 horas (horário UTC)
   workflow_dispatch: {}     # botão "Run workflow" para rodar na hora
 
 permissions:

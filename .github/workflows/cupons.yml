@@ -5,7 +5,7 @@ env:
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # a cada 5 min (menor intervalo do GitHub)
+    - cron: "*/30 * * * *"  # a cada 30 min (cabe nos 2.000 min grátis/mês do GitHub)
   workflow_dispatch: {}
 
 permissions:
