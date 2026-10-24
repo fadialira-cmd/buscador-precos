@@ -1,0 +1,10 @@
+# Um produto por linha. Opcional: ";preço-alvo" para receber alerta.
+# Foco: utilidades do dia a dia que viram presente.
+garrafa térmica inox;89,90
+air fryer;299,90
+mixer de mão
+kit organizador de gaveta
+luminária de mesa led
+umidificador de ar
+copo térmico com tampa;59,90
+massageador elétrico

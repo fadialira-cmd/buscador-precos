@@ -1,0 +1,42 @@
+name: Buscador de preços
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # de hora em hora (UTC)
+  workflow_dispatch: {}     # botão "Run workflow" para rodar na hora
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gravar-repo
+  cancel-in-progress: false
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r buscador_precos/requirements.txt
+      - name: Buscar preços da lista
+        working-directory: buscador_precos
+        env:
+          RELATORIO_FIXO: "1"
+          ML_ACCESS_TOKEN: ${{ secrets.ML_ACCESS_TOKEN }}
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+        run: python buscar.py --lista produtos.txt
+      - name: Salvar histórico e relatórios
+        run: |
+          git config user.name "buscador-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A buscador_precos/dados buscador_precos/saida || true
+          git diff --cached --quiet || git commit -m "Preços $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase && git push

@@ -1,0 +1,82 @@
+{
+  "cupons": [
+    {
+      "post_id": "Post 1",
+      "titulo": "🔥 ACHADINHOS COM 30% OFF NO MERCADO LIVRE 🔥",
+      "codigo": "MELITEMCUPOM",
+      "loja": "Mercado Livre",
+      "enviado_em": "PREENCHER dd/mm/aaaa hh:mm",
+      "telegram_message_id": null,
+      "valido_ate": null,
+      "alternativa": "",
+      "fontes": [
+        "https://www.melhorescartoes.com.br/cupom-desconto.html",
+        "https://www.pelando.com.br/cupons-de-descontos/mercado-livre"
+      ],
+      "status": "ativo",
+      "falhas": 0
+    },
+    {
+      "post_id": "Post 2",
+      "titulo": "💸 ATÉ R$ 200 DE DESCONTO NO MERCADO LIVRE",
+      "codigo": "TECHPROMO",
+      "loja": "Mercado Livre",
+      "enviado_em": "NÃO ENVIADO",
+      "telegram_message_id": null,
+      "valido_ate": "2026-10-23T23:59:00",
+      "alternativa": "",
+      "fontes": [
+        "https://descontostop.com/loja/cupom-desconto-mercado-livre/"
+      ],
+      "status": "cancelado",
+      "aviso_enviado": "não enviado — post bloqueado antes de publicar",
+      "falhas": 0
+    },
+    {
+      "post_id": "Post 3",
+      "titulo": "🏠 SUA CASA MAIS PRÁTICA COM 15% OFF NA MAGALU",
+      "codigo": "CUPOMCASA15",
+      "loja": "Magalu",
+      "enviado_em": "PREENCHER dd/mm/aaaa hh:mm",
+      "telegram_message_id": null,
+      "valido_ate": null,
+      "alternativa": "",
+      "fontes": [
+        "https://descontostop.com/loja/cupom-desconto-magazine-luiza/"
+      ],
+      "status": "ativo",
+      "falhas": 0
+    },
+    {
+      "post_id": "Post 4",
+      "titulo": "💄 R$ 20 OFF EM BELEZA NA SHOPEE",
+      "codigo": "B3L3Z4C0M4SH0",
+      "loja": "Shopee",
+      "enviado_em": "PREENCHER dd/mm/aaaa hh:mm",
+      "telegram_message_id": null,
+      "valido_ate": null,
+      "alternativa": "",
+      "fontes": [
+        "https://seletronic.com.br/cupom-shopee-20-reais-desconto-compras-60-23-10-2026/"
+      ],
+      "status": "suspeito",
+      "falhas": 0
+    },
+    {
+      "post_id": "Post 5",
+      "titulo": "📱 PRIMEIRA COMPRA NA AMAZON? GANHE R$ 20",
+      "codigo": "COMPRANOAPP",
+      "loja": "Amazon",
+      "enviado_em": "PREENCHER dd/mm/aaaa hh:mm",
+      "telegram_message_id": null,
+      "valido_ate": null,
+      "alternativa": "",
+      "fontes": [
+        "https://descontostop.com/loja/cupom-desconto-amazon/",
+        "https://www.cupomdesconto.com.br/cupom-amazon"
+      ],
+      "status": "ativo",
+      "falhas": 0
+    }
+  ]
+}
