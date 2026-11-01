@@ -1,16 +1,16 @@
-01/11 03:02 | garrafa térmica inox | 0 ofertas
+01/11 10:23 | garrafa térmica inox | 0 ofertas
     erro: Mercado Livre: API do ML pediu autenticação: preencha ML_ACCESS_TOKEN no .env
-01/11 03:02 | air fryer | 0 ofertas
+01/11 10:23 | air fryer | 0 ofertas
     erro: Mercado Livre: API do ML pediu autenticação: preencha ML_ACCESS_TOKEN no .env
-01/11 03:02 | mixer de mão | 0 ofertas
+01/11 10:23 | mixer de mão | 0 ofertas
     erro: Mercado Livre: API do ML pediu autenticação: preencha ML_ACCESS_TOKEN no .env
-01/11 03:02 | kit organizador de gaveta | 0 ofertas
+01/11 10:23 | kit organizador de gaveta | 0 ofertas
     erro: Mercado Livre: API do ML pediu autenticação: preencha ML_ACCESS_TOKEN no .env
-01/11 03:02 | luminária de mesa led | 0 ofertas
+01/11 10:23 | luminária de mesa led | 0 ofertas
     erro: Mercado Livre: API do ML pediu autenticação: preencha ML_ACCESS_TOKEN no .env
-01/11 03:02 | umidificador de ar | 0 ofertas
+01/11 10:23 | umidificador de ar | 0 ofertas
     erro: Mercado Livre: API do ML pediu autenticação: preencha ML_ACCESS_TOKEN no .env
-01/11 03:02 | copo térmico com tampa | 0 ofertas
+01/11 10:23 | copo térmico com tampa | 0 ofertas
     erro: Mercado Livre: API do ML pediu autenticação: preencha ML_ACCESS_TOKEN no .env
-01/11 03:02 | massageador elétrico | 0 ofertas
+01/11 10:23 | massageador elétrico | 0 ofertas
     erro: Mercado Livre: API do ML pediu autenticação: preencha ML_ACCESS_TOKEN no .env
