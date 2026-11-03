@@ -15,7 +15,7 @@
       ],
       "status": "ativo",
       "falhas": 0,
-      "ultima_checagem": "03/11/2026 08:39"
+      "ultima_checagem": "03/11/2026 16:08"
     },
     {
       "post_id": "Post 2",
@@ -45,9 +45,10 @@
       "fontes": [
         "https://descontostop.com/loja/cupom-desconto-magazine-luiza/"
       ],
-      "status": "ativo",
+      "status": "cancelado",
       "falhas": 0,
-      "ultima_checagem": "03/11/2026 08:39"
+      "ultima_checagem": "03/11/2026 16:08",
+      "aviso_enviado": "03/11/2026 16:08"
     },
     {
       "post_id": "Post 4",
@@ -63,7 +64,7 @@
       ],
       "status": "ativo",
       "falhas": 0,
-      "ultima_checagem": "03/11/2026 08:39"
+      "ultima_checagem": "03/11/2026 16:08"
     },
     {
       "post_id": "Post 5",
@@ -78,9 +79,10 @@
         "https://descontostop.com/loja/cupom-desconto-amazon/",
         "https://www.cupomdesconto.com.br/cupom-amazon"
       ],
-      "status": "ativo",
+      "status": "cancelado",
       "falhas": 0,
-      "ultima_checagem": "03/11/2026 08:39"
+      "ultima_checagem": "03/11/2026 16:08",
+      "aviso_enviado": "03/11/2026 16:08"
     }
   ]
 }
