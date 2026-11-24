@@ -13,9 +13,10 @@
         "https://www.melhorescartoes.com.br/cupom-desconto.html",
         "https://www.pelando.com.br/cupons-de-descontos/mercado-livre"
       ],
-      "status": "suspeito",
-      "falhas": 2,
-      "ultima_checagem": "24/11/2026 11:35"
+      "status": "cancelado",
+      "falhas": 3,
+      "ultima_checagem": "24/11/2026 20:46",
+      "aviso_enviado": "24/11/2026 20:46"
     },
     {
       "post_id": "Post 2",
@@ -64,7 +65,7 @@
       ],
       "status": "ativo",
       "falhas": 0,
-      "ultima_checagem": "24/11/2026 11:35"
+      "ultima_checagem": "24/11/2026 20:46"
     },
     {
       "post_id": "Post 5",
