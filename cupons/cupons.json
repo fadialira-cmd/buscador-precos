@@ -14,8 +14,8 @@
         "https://www.pelando.com.br/cupons-de-descontos/mercado-livre"
       ],
       "status": "suspeito",
-      "falhas": 1,
-      "ultima_checagem": "24/11/2026 00:52"
+      "falhas": 2,
+      "ultima_checagem": "24/11/2026 11:35"
     },
     {
       "post_id": "Post 2",
@@ -64,7 +64,7 @@
       ],
       "status": "ativo",
       "falhas": 0,
-      "ultima_checagem": "24/11/2026 00:52"
+      "ultima_checagem": "24/11/2026 11:35"
     },
     {
       "post_id": "Post 5",
